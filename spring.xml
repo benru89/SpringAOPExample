@@ -19,8 +19,8 @@
 </bean>
  
 <!-- Configure Aspect Beans, without this Aspects advices wont execute -->
-<bean name="employeeAspect" class="com.spring.spring.aspect.EmployeeAspect" />
-<bean name="employeeAspectPointcut" class="com.spring.spring.aspect.EmployeeAspectPointcut" />
+<bean name="employeeAspect" class="com.sopra.spring.aspect.EmployeeAspect" />
+<bean name="employeeAspectPointcut" class="com.sopra.spring.aspect.EmployeeAspectPointcut" />
 <bean name="employeeAspectJoinPoint" class="com.sopra.spring.aspect.EmployeeAspectJoinPoint" />
 <bean name="employeeAfterAspect" class="com.sopra.spring.aspect.EmployeeAfterAspect" />
 <bean name="employeeAroundAspect" class="com.sopra.spring.aspect.EmployeeAroundAspect" />
