@@ -5,7 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.sopra.spring.service.EmployeeService;
  
 public class SpringMain {
- 
     public static void main(String[] args) {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
         EmployeeService employeeService = ctx.getBean("employeeService", EmployeeService.class);
@@ -14,10 +13,9 @@ public class SpringMain {
          
         employeeService.getEmployee().setName("Programoto Unmonton");
          
-        employeeService.getEmployee().throwException();
+        //employeeService.getEmployee().throwException();
          
         ctx.close();
     }
- 
 }
 
